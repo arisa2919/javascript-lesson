@@ -52,3 +52,14 @@ let sayWorld = function (){
   console.log("World");
 }
 sayWorld();
+
+// Q7-1
+user.birthday = '2000-09-27';
+console.log(user.birthday);
+
+// Q7-2
+user.sayHello = function (){
+  console.log("Hello!");
+}
+user.sayHello();
+
