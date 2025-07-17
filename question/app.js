@@ -95,3 +95,9 @@ console.log(remainder(5,3));
 // そのため、ｘのスコープ（変数の有効範囲）はfooメソッド内です。
 // また、メソッド外でｘを定義していないため、ｘをメソッドの外で参照することはできません。
 // 以上の理由からコンソールで出力されずにエラーを出します。
+
+// 応用編
+
+// Q1 
+const randumNumber = Math.floor(Math.random() * 10);
+console.log(randumNumber);
