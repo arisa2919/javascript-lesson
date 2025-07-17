@@ -41,3 +41,14 @@ let total = playerList[0].age + playerList[1].age + playerList[2].age;
 let average = total/3;
 console.log(average);
 
+// Q6-1
+function sayHello(){
+  console.log("Hello");
+}
+sayHello();
+
+// Q6-2
+let sayWorld = function (){
+  console.log("World");
+}
+sayWorld();
