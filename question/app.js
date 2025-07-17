@@ -101,3 +101,19 @@ console.log(remainder(5,3));
 // Q1 
 const randumNumber = Math.floor(Math.random() * 10);
 console.log(randumNumber);
+
+// Q2
+setTimeout(function(){
+  console.log("Hello World!");
+}, 3000);
+
+//Q3
+let num = 0;
+if(num > 0){
+  console.log("num is greater than 0");
+}else if(num == 0){
+  console.log("num is 0");
+} else {
+  console.log("num is less than 0");
+}
+
