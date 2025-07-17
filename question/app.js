@@ -83,3 +83,9 @@ calc.add(3,4);
 calc.subtract(15,5);
 calc.multiply(7,7);
 calc.divide(20,4);
+
+// Q9
+function remainder(x,y){
+  return ${x}'を'${y}'で割ったは'${x%y}'です。`'
+}
+console.log(remainder(5,3));
