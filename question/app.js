@@ -63,3 +63,23 @@ user.sayHello = function (){
 }
 user.sayHello();
 
+// Q8
+let calc = {
+  add: function(x,y){
+    console.log(x + y);
+  },
+  subtract: function(x,y){
+    console.log(x - y);
+  },
+  multiply: function(x,y){
+    console.log(x * y);
+  },
+  divide: function(x,y){
+    console.log(x / y);
+  }
+};
+
+calc.add(3,4);
+calc.subtract(15,5);
+calc.multiply(7,7);
+calc.divide(20,4);
