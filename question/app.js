@@ -123,8 +123,19 @@ let n = 0;
 for(let i = 0; i < 100; i++){
  numbers[i] = i;
 }
-for(let i = 0; i<100; i++){
+for(let i = 0; i < 100; i++){
   console.log(numbers[i]);
 }
 
-
+// Q5
+let mixed = [4, '2', 5, '8', '9', 0, 1];
+for(let i = 0; i < mixed.length; i++){
+  let Number = mixed[i];
+  if(Number%2 === 0 && typeof Number === "number"){
+    console.log("even");
+  }else if(Number%2 !== 0  && typeof Number === "number"){
+    console.log("odd");
+  }else{
+    console.log("not number");
+  }
+}
