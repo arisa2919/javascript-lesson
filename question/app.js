@@ -103,9 +103,10 @@ const randumNumber = Math.floor(Math.random() * 10);
 console.log(randumNumber);
 
 // Q2
-setTimeout(function(){
-  console.log("Hello World!");
-}, 3000);
+function hello(){
+  console.log('Hello World!');
+}
+setTimeout(hello,3000);
 
 //Q3
 let num = 0;
@@ -131,11 +132,12 @@ for(let i = 0; i < 100; i++){
 let mixed = [4, '2', 5, '8', '9', 0, 1];
 for(let i = 0; i < mixed.length; i++){
   let Number = mixed[i];
-  if(Number%2 === 0 && typeof Number === "number"){
+  if(Number%2 === 0  && typeof Number === "number"){
     console.log("even");
-  }else if(Number%2 !== 0  && typeof Number === "number"){
+  }else if(Number%2 !== 0 && typeof Number === "number"){
     console.log("odd");
   }else{
     console.log("not number");
   }
 }
+
