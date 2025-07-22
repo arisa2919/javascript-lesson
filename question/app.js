@@ -48,7 +48,7 @@ function sayHello(){
 sayHello();
 
 // Q6-2
-let sayWorld = function (){
+let sayWorld = function(){
   console.log("World");
 }
 sayWorld();
