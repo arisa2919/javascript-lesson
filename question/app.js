@@ -130,12 +130,10 @@ for(let i = 0; i < 100; i++){
 
 // Q5
 let mixed = [4, '2', 5, '8', '9', 0, 1];
-let number = mixed[i];
 for(let i = 0; i < mixed.length; i++){
-  if(number % 2 === 0  && typeof number === "number"){
-    console.log("even");
-  }else if(number % 2 !== 0 && typeof number === "number"){
-    console.log("odd");
+  let number = mixed[i];
+  if(typeof number === "number"){
+    console.log((number % 2 !== 0) ? "even" : "odd");
   }else{
     console.log("not number");
   }
