@@ -99,8 +99,8 @@ console.log(remainder(5,3));
 // 応用編
 
 // Q1 
-const randumNumber = Math.floor(Math.random() * 10);
-console.log(randumNumber);
+const randomNumber = Math.floor(Math.random() * 10);
+console.log(randomNumber);
 
 // Q2
 function hello(){
